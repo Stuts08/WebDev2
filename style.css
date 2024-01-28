@@ -1,0 +1,163 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding-top: 10px;
+     height: 5.5rem;
+     background-color: rgb(46, 145, 112);
+}
+nav ul{
+    display: flex;
+    justify-content: center ;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-size: large;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:hover{
+    box-shadow: 1px 1px 2px 2px rgb(142, 177, 173);
+    font-size: 1.2rem;
+}
+
+.left{
+    font-size: 2.5rem;
+    font-style: oblique;
+    align-content: left
+    ;
+}
+.left:hover{
+    box-shadow: 3px 3px 6px 6px rgb(142, 177, 173);
+}
+
+.firstsection{
+    display: flex;
+    justify-content: flex-;
+    margin: 30px 0;
+
+}
+#leftsection{
+    padding-left: 4rem;
+}
+.image{
+    display: flex;
+    height: 350px;
+    width: 320px;
+    border-radius: 25px;
+    
+
+}
+.image:hover{
+    box-shadow: 5px 5px 14px 14px rgb(142, 177, 173);
+}
+.rightsection{
+    padding-top: 5rem;
+    margin-left: 5rem;
+   
+}
+.intro{
+    font-size: 1.5rem;
+    background-color: rgb(46, 145, 112);
+    padding-right: 5px;
+    padding-left: 5px;
+    text-orientation: upright;
+}
+.about{
+    font-size: 1.3rem;
+    background-color: rgb(46, 145, 112);
+    padding-top: 8px;
+    padding-left: 5px;
+    text-orientation: upright;
+    
+}
+.aboutme{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+#head{
+    font-size: 2rem;
+    color: rgb(46, 145, 112);
+    text-decoration:underline;
+    text-decoration-color: rgb(142, 177, 173);
+
+}
+#contactme{
+    font-size: 2rem;
+    color: rgb(46, 145, 112);
+    text-decoration:underline;
+    text-decoration-color: rgb(142, 177, 173);
+    
+
+}
+.section1{
+
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#skill{
+    font-size: 2rem;
+    color: rgb(46, 145, 112);
+    text-decoration:underline;
+    text-decoration-color: rgb(142, 177, 173);
+}
+.lang{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.myskills{
+    font-size: 1.35rem;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#projects{
+    font-size: 2rem;
+    color: rgb(46, 145, 112);
+    text-decoration:underline;
+    text-decoration-color: rgb(142, 177, 173);
+
+}
+.list{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.working{
+    font-size: 1.35rem;
+    margin-left: 5%;
+}
+.list1{
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stuti- Personal Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Stuti Gupta </div>
+            
+            <div class="right">
+                <ul>
+                    <li><a href="#leftsection">Home </a></li>
+                    <li><a href="#head">About </a></li>
+                    <li><a href="#projects">Projects </a></li>
+                    <li><a href="#contactme">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div id="leftsection">
+                <img src="./assets/imgs/stuti1.jpg" alt="my pic" class="image">
+            </div>
+            <div class="rightsection">
+                <div class="intro">Hello,My name is  Stuti</div> 
+                <div class="about">and I'm a Web developer
+                </div>
+            </div>
+        </section>
+        <hr>
+
+    </main>
+    <section>
+        
+        <div id="head">About:</div>
+        <div class="aboutme"><p>Greetings! I am Stuti Gupta, an enthusiastic and dedicated web developer with a fervent passion for crafting digital experiences. My journey into the world of web development began as a curiosity, but it quickly evolved into a profound love for the art and science of creating functional and visually compelling websites.</p>
+
+        <p>From the intricacies of coding to the limitless possibilities of design, I find joy in every line of code and pixel that comes together to form a seamless online presence. What drives my passion is the dynamic nature of the field – the constant evolution of technologies and the ever-growing demand for innovative solutions inspire me to stay on the cutting edge of the industry.</p>
+
+        <p>I believe in the power of the web to connect, engage, and empower people. It's not just about writing code; it's about understanding the user, solving problems, and creating meaningful interactions. Whether it's developing responsive and user-friendly interfaces or diving into the complexities of backend systems, I am dedicated to mastering the full spectrum of web development.</p>
+
+        <p>I am fueled by the thrill of turning ideas into reality, solving challenges with elegant solutions, and contributing to the digital landscape. In every project, my goal is to not just meet expectations but to exceed them by delivering polished, efficient, and user-centric websites.</p>
+
+        <p>Through my experiences and continuous learning, I am excited to contribute to the ever-evolving web development community. I am not just passionate about writing code; I am passionate about building the future of the web, one line at a time.</p>
+
+        <p>Thank you for visiting my corner of the internet – let's create something amazing together!</p>
+        </div>
+    </section>
+    <section>
+        <hr>
+        <div id="projects">
+            Projects:
+        </div>
+        <div class="list">
+            <ul>
+                <li>Hand Gestured robot</li>
+                <li>Smart trash can</li>
+            </ul>
+            
+        </div>
+        <div class="working">
+            Projects working on-
+        </div>
+        <div class="list1">
+            <ul>
+                <li>Anti-Theft System</li>
+                <li>Business Database Management System </li>
+            </ul>
+        </div>
+        
+        <div id="skill">Skills:</div>
+        <div class="myskills">Languages known:</div>
+        
+        <ul class="lang">
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Html/CSS</li>
+                <li>MATLAB</li>
+                <li>Javascript</li>
+                <li>SQL</li>
+        </ul>  
+    </section>
+    <section>  
+        <hr>
+        <div id="contactme">
+            Contacts:
+        </div> 
+        <div class="section1">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/stuti-gupta-211a57277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a></li>
+                <li><a href="https://github.com/Stuts08">Github</a></li>
+                <li><a href="mailto:stuti.gupta2022@vitstudent.ac.inm?subject=Feedback&body=Hello%20there!">Email</a></li>
+
+            <ul>
+                
+        </div>
+        
+    </section>
+    <script>
+        // JavaScript to enable smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
